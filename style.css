@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+#header {
+  height: 40px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+#hero-container {
+  border: solid 1px blueviolet;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  border: solid 1px red;
+}
+
+.menu {
+  border: solid 1px blue;
+}
+
+.menu ul {
+  display: flex;
+  gap: 10px;
+}
+
+.hero-desc {
+  border: solid 1px green;
+}
+
+.hero-descSmaller {
+  border: solid 1px goldenrod;
+}
+
+.hero-content {
+  border: solid 1px pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
